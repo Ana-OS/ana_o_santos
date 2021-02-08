@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background: white;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Amatic SC', cursive;
+}
+header{
+  width:1200px;
+  margin:0 auto;
+  position:relative;
+  margin-bottom:40px;
+}
+.container-mole{
+  height:100vh;
+  margin-top:-30px;
+  background-color:#e0c494;
+}
+
+button.start:focus,
+button.start:active {
+    outline: none;
+}
+.start{
+  display:inline-block;
+  position:absolute;
+  top:130px;
+  left:10px;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  border: 2px solid saddlebrown;
+  font-size:35px;
+  background-color: goldenrod;
+  font-family: inherit;
+  font-weight:bold;
+  transition:transform .3s ease;
+}
+
+.start:active{
+  outline: none;
+  transform:scale(.9);
+}
+
+h1 {
+  text-align: center;
+  font-size: 8rem;
+  line-height: 0.8;
+  margin-bottom: 0;
+}
+
+.score-mole {
+  background: rgba(255,255,255,0.2);
+  padding: 0 3rem;
+  line-height: 1;
+  border-radius: 1rem;
+}
+.timeUp{
+  text-align: center;
+  font-size: 8rem;
+  line-height: 0.8;
+  margin-bottom: 0;
+}
+.playAgain{
+  padding-left: 6rem;
+  font-size: 6rem;
+  word-spacing: .8rem;
+}
+.playAgain img{
+  width:40px;
+  height:40px;
+}
+
+.mole-game {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.hole {
+  flex: 1 0 33.33%;
+  overflow: hidden;
+  position: relative;
+}
+
+.hole:after {
+  display: block;
+  background: url(dirt.svg) bottom center no-repeat;
+  background-size: contain;
+  content: '';
+  width: 100%;
+  height:70px;
+  position: absolute;
+  z-index: 2;
+  bottom: -30px;
+}
+
+.mole {
+  background: url('mole.svg') bottom center no-repeat;
+  background-size: 60%;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  transition:all 0.4s;
+}
+
+.hole.up .mole {
+  top: 0;
+}
+
+.hidden{
+  display:none;
+}

@@ -28,7 +28,16 @@ import "bootstrap";
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
 
-document.addEventListener('turbolinks:load', () => {
+import { info } from '../components/arrow';
+import { mole } from '../components/whack_a_mole';
+import { connect } from '../components/connect_4';
+import { car } from '../components/car_game';
+
+document.addEventListener('load', () => {
   // Call your functions here, e.g:
   // initSelect2();
+ info();
+ mole();
+ connect();
+ car();
 });
