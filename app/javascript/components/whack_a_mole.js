@@ -1,7 +1,7 @@
 const mole = window.addEventListener('load', () => {
 
   const holes = document.querySelectorAll('.hole');
-  const scoreBoard = document.querySelector('.score');
+  const scoreBoard = document.querySelector('.score-mole');
   const moles = document.querySelectorAll('.mole');
   const title = document.querySelector("h1");
   const subTitle = document.querySelector(".timeUp");
