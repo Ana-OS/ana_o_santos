@@ -5,14 +5,14 @@
 }
 .outer{
   width:100%;
-  height:130vh;
+  height:105vh;
   border:1px solid pink;
 }
 
 .inner{
   position:absolute;
   width:80vw;
-  height:750px;
+  height:900px;
   top:100px;
   right:0;
   background-color:#FFE4DC;
@@ -21,14 +21,13 @@
 
 .name{
   position:absolute;
-  right:520px;
+  right:620px;
   top:80px;
   width:700px;
   transition: ease all .5s;
 
   h1{
-  transition: ease all .5s;
-
+    transition: ease all .5s;
   }
 }
 
@@ -38,11 +37,12 @@
     font-size:20px;
     text-decoration:none;
     padding-left:30px;
+    font-weight: lighter;
   }
 }
 .container_pic{
   position:absolute;
-  top:200px;
+  top:290px;
   right:860px;
   transition: ease all .5s;
 }
@@ -56,9 +56,10 @@
   position:absolute;
   width:600px;
   height:100px;
-  top:280px;
+  top:320px;
   right:100px;
   font-size: 30px;
+  font-weight: lighter;
   transition: ease all .5s;
 }
 
@@ -69,7 +70,7 @@
   height:50px;
   border-radius:50px;
   position:absolute;
-  top:93vh;
+  top:88vh;
   left:50%;
   font-size: 20px;
   transition: ease all .4s;
@@ -83,7 +84,7 @@
 
 // Content //
 #app{
-  font-size:30px;
+  font-size:35px;
 }
 h3{
   display:block;
@@ -109,7 +110,8 @@ h3{
     margin:auto;
   }
   p{
-    font-size:15px
+    font-size:18px;
+    font-weight:lighter;
   }
   span{
     font-weight:bold;
@@ -138,7 +140,7 @@ h3{
   .about{
     width:500px;
     height:150px;
-    top:660px;
+    top:690px;
     right:27%;
   }
 
@@ -167,18 +169,77 @@ h3{
 }
 
 @media screen and (max-width: 960px){
+  .inner{
+    width:100vw;
+    height:950px;
+  }
+
   .name{
     right:50px;
     width:700px;
 
     h1{font-size:45px;  }
   }
+   .container_pic{
+    top:200px;
+    right:30%;
+  }
+  .about{
+    width:500px;
+    height:150px;
+    top:720px;
+    right:15%;
+    font-size:25px;
+  }
+  .arrow{
+   display:none;
+  }
+
+  // content
+  .content{
+    position:absolute;
+    top:120vh;
+    left:20%;
+
+    h3{
+      margin-left:35%;
+    }
+
+    .app{
+      margin-top:20px;
+      margin-left:-5%;
+      p{
+        font-size:13px;
+      }
+    }
+  }
+
 }
 
 @media screen and (max-width: 768px){
+  .outer{
+    margin:0 auto;
+    width:100%;
+    height:70vh;
+    border:none !important;
+  }
+  .social{
+
+  width:280px;
+  padding-top:30px;
+  margin-left:18%;
+    p a{
+      color:black;
+      font-size:13px;
+      text-decoration:none;
+    }
+  }
+
   .inner{
-    width:230vw;
-    height:950px;
+    width:130%;
+    top:10%;
+    left:0px;
+    height:100vh;
   }
 
   .name{
@@ -189,15 +250,15 @@ h3{
   }
 
   .container_pic{
-    right:28%;
+    right:20%;
   }
 
   .about{
-    width:500px;
+    width:450px;
     height:150px;
-    top:660px;
-    right:15%;
-    font-size:25px;
+    top:720px;
+    right:6%;
+    font-size:22px;
   }
 
   .arrow{
@@ -207,7 +268,7 @@ h3{
   // content
   .content{
     position:absolute;
-    top:150vh;
+    top:120vh;
     left:20%;
   }
 }
@@ -216,7 +277,7 @@ h3{
   .outer{
     margin:0 auto;
     width:100%;
-    height:90vh;
+    height:70vh;
     border:none !important;
   }
 
@@ -235,7 +296,7 @@ h3{
     width:100%;
     top:10%;
     left:0px;
-    height:90vh;
+    height:70vh;
   }
 
   .name{
@@ -268,7 +329,7 @@ h3{
     border:1px solid orange;
     width:100%;
     position:absolute;
-    top:100vh;
+    top:90vh;
     left:0;
 
     h3{
@@ -308,7 +369,7 @@ h3{
   .outer{
     right:0;
     width:100%;
-    height:90vh;
+    height:80vh;
     border:none !important;
   }
 
@@ -327,7 +388,7 @@ h3{
     width:100%;
     top:10%;
     right:0px;
-    height:90vh;
+    height:76vh;
   }
 
   .name{
@@ -359,7 +420,7 @@ h3{
   .content{
     width:100%;
     position:absolute;
-    top:110vh;
+    top:87vh;
     left:0;
 
     h3{
@@ -381,7 +442,7 @@ h3{
   .games{
     width:100%;
     position:absolute;
-    top:210vh;
+    top:150vh;
     margin-left:0;
 
     h5{
@@ -392,6 +453,66 @@ h3{
     }
   }
 }
+
+@media screen and (max-width: 420px){
+  .outer{
+    width:100vw;
+  }
+
+
+  .inner{
+    width:100vw;
+    top:10%;
+    height:80vh;
+    left:0%;
+  }
+  .name{
+    top:4%;
+    left:0;
+    width:100vw;
+
+    h1{font-size:30px}
+  }
+
+   .about{
+    width:50vw;
+  }
+
+  .content{
+    top:90vh;
+
+    h3{
+      margin-left:40%;
+    }
+
+    .app{
+      left:0;
+      p{
+        font-size:13px;
+      }
+    }
+    .title{
+      margin-top:20px;
+      margin-left:0;
+      margin-bottom:20px;
+    }
+  }
+  .games{
+    width:100%;
+    position:absolute;
+    top:150vh;
+
+    h5{
+      margin-left:20%;
+    }
+    .app{
+      border:1px solid orange;
+      margin-left:10%;
+      margin-top:20px;
+    }
+  }
+}
+
 
 @media screen and (max-width: 375px){
   .outer{
