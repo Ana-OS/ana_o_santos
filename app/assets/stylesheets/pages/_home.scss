@@ -127,7 +127,7 @@ h3{
 
   .name{
     right:90px;
-    width:500px;
+    width:600px;
   }
 
   .container_pic{
@@ -168,7 +168,7 @@ h3{
 @media screen and (max-width: 960px){
   .name{
     right:50px;
-    width:500px;
+    width:700px;
 
     h1{font-size:45px;  }
   }
@@ -209,68 +209,185 @@ h3{
     top:150vh;
     left:20%;
   }
-
 }
-
 
 @media screen and (max-width: 500px){
   .outer{
-    width:100vw;
+    right:0;
+    width:100%;
     height:90vh;
     border:none !important;
   }
 
   .social{
+    width:280px;
     padding-top:30px;
+    margin-left:18%;
     p a{
       color:black;
-      font-size:10px;
+      font-size:13px;
       text-decoration:none;
       }
   }
 
   .inner{
-    width:120vw;
-    right:0;
-    height:950px;
+    width:100%;
+    top:10%;
+    right:0px;
+    height:90vh;
   }
 
   .name{
-    right:20%;
+    top:4%;
+    right:30%;
     width:250px;
 
     h1{font-size:30px}
   }
 
   .container_pic{
-    right:8%;
+    top:100px;
+    left:23%;
   }
 
+  .container_pic img{
+    width:230px;
+    height:270px;
+  }
   .about{
     width:250px;
-    height:150px;
-    top:660px;
-    right:15%;
-    font-size:20px;
+    height:130px;
+    top:400px;
+    right:27%;
+    font-size:15px;
   }
 
   // content
   .content{
+    width:100%;
     position:absolute;
-    top:150vh;
-    left:-10%;
+    top:110vh;
+    left:0;
 
     h3{
-      margin-left:56%;
+      margin-left:40%;
     }
 
     .app{
-      left:10%;
+      margin-left:-3%;
+      p{
+        font-size:13px;
+      }
     }
     .title{
-      margin-top:40px;
+      margin-top:30px;
+      margin-left:0;
+      margin-bottom:20px;
     }
   }
+  .games{
+    width:100%;
+    position:absolute;
+    top:210vh;
+    margin-left:0;
 
+    h5{
+      margin-left:20%;
+    }
+    .app{
+      margin-left:20%;
+    }
+  }
+}
+
+@media screen and (max-width: 320px){
+  .outer{
+    position:absolute;
+    width:100vw;
+    height:90vh;
+    border:none !important;
+  }
+
+  .social{
+    width:120vw;
+    padding-top:30px;
+    margin-left:-10px;
+
+    p a{
+      color:black;
+      font-size:13px;
+      text-decoration:none;
+      margin-left:-100%;
+      }
+  }
+
+  .inner{
+    width:120vw;
+    top:10%;
+    height:110vh;
+    left:0;
+  }
+
+  .name{
+    top:4%;
+    left:10%;
+    width:100vw;
+
+    h1{font-size:30px}
+  }
+
+  .container_pic{
+    top:100px;
+    left:20%;
+  }
+
+  .container_pic img{
+    width:230px;
+    height:270px;
+  }
+  .about{
+    width:250px;
+    height:130px;
+    top:400px;
+    left:20%;
+    font-size:15px;
+  }
+
+  // content
+  .content{
+    width:120vw;
+    position:absolute;
+    top:120vh;
+    left:0;
+
+    h3{
+      margin-left:20%;
+    }
+
+    .app{
+      margin-left:-10%;
+      p{
+        font-size:13px;
+      }
+    }
+    .title{
+      margin-top:20px;
+      margin-left:0;
+      margin-bottom:20px;
+    }
+  }
+  .games{
+    width:100%;
+    position:absolute;
+    top:245vh;
+    left:0;
+
+    h5{
+      margin-left:20%;
+    }
+    .app{
+     margin-left:10%;
+    }
+  }
 }
 
