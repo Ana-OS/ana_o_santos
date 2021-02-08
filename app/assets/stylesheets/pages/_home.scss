@@ -271,11 +271,11 @@ h3{
     left:0;
 
     h3{
-      margin-left:40%;
+      margin-left:35%;
     }
 
     .app{
-      margin-left:-3%;
+      margin-left:-5%;
       p{
         font-size:13px;
       }
@@ -301,7 +301,7 @@ h3{
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 325px){
   .outer{
     position:absolute;
     width:100vw;
@@ -318,7 +318,7 @@ h3{
       color:black;
       font-size:13px;
       text-decoration:none;
-      margin-left:-100%;
+      margin-left:-50%;
       }
   }
 
@@ -326,12 +326,12 @@ h3{
     width:120vw;
     top:10%;
     height:110vh;
-    left:0;
+    left:0%;
   }
 
   .name{
     top:4%;
-    left:10%;
+    left:8%;
     width:100vw;
 
     h1{font-size:30px}
@@ -339,7 +339,7 @@ h3{
 
   .container_pic{
     top:100px;
-    left:20%;
+    left:18%;
   }
 
   .container_pic img{
@@ -350,7 +350,7 @@ h3{
     width:250px;
     height:130px;
     top:400px;
-    left:20%;
+    left:17%;
     font-size:15px;
   }
 
@@ -362,7 +362,7 @@ h3{
     left:0;
 
     h3{
-      margin-left:20%;
+      margin-left:40%;
     }
 
     .app{
@@ -380,14 +380,15 @@ h3{
   .games{
     width:100%;
     position:absolute;
-    top:245vh;
-    left:0;
+    top:230vh;
 
     h5{
       margin-left:20%;
     }
     .app{
+      border:1px solid orange;
      margin-left:10%;
+     margin-top:20px;
     }
   }
 }
