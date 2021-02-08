@@ -271,7 +271,7 @@ h3{
   // content
   .content{
     position:absolute;
-    top:120vh;
+    top:90vh;
     left:20%;
   }
 }
@@ -387,15 +387,15 @@ h3{
   }
 
   .inner{
-    width:100%;
+    width:105%;
     top:10%;
     right:0px;
-    height:76vh;
+    height:90vh;
   }
 
   .name{
     top:4%;
-    right:30%;
+    left:17%;
     width:250px;
 
     h1{font-size:30px}
@@ -422,7 +422,7 @@ h3{
   .content{
     width:100%;
     position:absolute;
-    top:87vh;
+    top:70vh;
     left:0;
 
     h3{
@@ -458,20 +458,19 @@ h3{
 
 @media screen and (max-width: 420px){
   .outer{
-    width:100vw;
+    width:120vw;
   }
 
-
   .inner{
-    width:100vw;
+    width:120vw;
     top:10%;
-    height:80vh;
+    height:97vh;
     left:0%;
   }
   .name{
     top:4%;
     left:0;
-    width:100vw;
+    width:120vw;
 
     h1{font-size:30px}
   }
@@ -481,14 +480,14 @@ h3{
   }
 
   .content{
-    top:90vh;
+    top:84vh;
 
     h3{
-      margin-left:40%;
+      margin-left:45%;
     }
 
     .app{
-      left:0;
+      left:20%;
       p{
         font-size:13px;
       }
@@ -537,7 +536,7 @@ h3{
   }
 
   .inner{
-    width:130%;
+    width:150%;
     top:10%;
     height:95vh;
     left:0%;
@@ -573,7 +572,7 @@ h3{
     width:130vw;
     position:absolute;
     top:77vh;
-    left:10%;
+    left:14%;
 
     h3{
       margin-left:33%;
