@@ -214,14 +214,24 @@ h3{
 
 
 @media screen and (max-width: 500px){
+  .outer{
+    width:100vw;
+    height:90vh;
+    border:none !important;
+  }
+
   .social{
-    position:absolute;
-    top:20px;
-    left:35%;
+    padding-top:30px;
+    p a{
+      color:black;
+      font-size:10px;
+      text-decoration:none;
+      }
   }
 
   .inner{
-    width:90vw;
+    width:120vw;
+    right:0;
     height:950px;
   }
 
@@ -233,14 +243,14 @@ h3{
   }
 
   .container_pic{
-    right:13%;
+    right:8%;
   }
 
   .about{
-    width:300px;
+    width:250px;
     height:150px;
     top:660px;
-    right:20%;
+    right:15%;
     font-size:20px;
   }
 
@@ -248,11 +258,19 @@ h3{
   .content{
     position:absolute;
     top:150vh;
-    left:3%;
+    left:-10%;
 
     h3{
-      margin-left:55%;
+      margin-left:56%;
+    }
+
+    .app{
+      left:10%;
+    }
+    .title{
+      margin-top:40px;
     }
   }
+
 }
 
