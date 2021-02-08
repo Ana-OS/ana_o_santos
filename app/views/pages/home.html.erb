@@ -1,2 +1,72 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container outer">
+  <div class="d-flex justify-content-end social">
+    <p class="ml-5"><a href="https://mail.google.com/">ana.o.santus@gmail.com</a></p><p class="ml-5"><a href="https://www.linkedin.com/in/ana-santos-71982299/">linkedin</a></p><p class="ml-5"><a href="https://github.com/Ana-OS">github</a></p>
+  </div>
+  <div class="container d-flex inner">
+    <div class="name"><h1>Ana O. Santos</h1></div>
+    <div class="container_pic"><img class="pic" src="https://res.cloudinary.com/dhjbcdzxb/image/upload/v1612461668/ana_santos1_copy_fvmttl.jpg" alt=""></div>
+    <div class="container about"><p>Hi! I'm Ana and I'm a software developer.</p><p class="mt-5">I started my professional career in digital marketing but realized that software development is my true passion.</p></div>
+  </div>
+  <div class="text-center arrow" id="arrow"><i class="mt-4 fas fa-long-arrow-alt-down"></i></div>
+</div>
+
+<div class="content mx-auto" id="content-apps">
+  <h3 class="mt-5 mb-5" id="app">Apps</h3>
+  <div class="wrapper mt-5 d-flex justify-content-between">
+
+    <div class="beerware">
+      <h5 class="ml-5">Beerware</h5>
+      <div class="app mb-5">
+        <a href="http://www.beerware.online/"><img src="<%= asset_path('beerware.jpg') %>" alt=""></a>
+        <p class="ml-3 mr-3 mt-3">This is an exclusively<span> Mobile App </span>that allows  you to discover bars speciallized in craft beers in the city of Lisbon and to build a list of your favourite ones and of those you have yet to try</p>
+      </div>
+    </div>
+
+    <div class="cocktails">
+      <h5 class="ml-5">The Cocktail Diary</h5>
+      <div class="app mt-5">
+        <a href="https://the-cocktail-diary.herokuapp.com/"><img src="https://res.cloudinary.com/dhjbcdzxb/image/upload/v1612542744/cocktail_diary_naqxfs.png" alt=""></a>
+        <p class="ml-3 mr-3 mt-3">With this diary the user can keep save a list of his favorite cocktails ingredients and access other's for inspiration. This is a <span>Desktop App.</span></p>
+      </div>
+    </div>
+
+    <div class="rentapool">
+      <h5 class="ml-5 mb-5">Rentapool</h5>
+      <div class="app mb-5">
+        <a href="http://www.rentapool.today/"><img src="<%= asset_path('rentapool.jpg') %>"  alt=""></a>
+        <p class="ml-3 mr-3 mt-3">This <span>Desktop App</span> was developed as a Airbnb clone at Le Wagon coding bootcamp. It allows you to rent swimming pools worldwide</p>
+      </div>
+    </div>
+  </div>
+
+ <h3 class="mt-5">Games</h3>
+  <div class="wrapper mt-5 d-flex justify-content-between" style="border:1px solid blue">
+    <div class="connect-4">
+      <h5 class="mt-3">Whack A Mole</h5>
+      <%= link_to whack_a_mole_path, data: { turbolinks: false } do %>
+        <div class="app mb-5" style="border:1px solid orange">
+          <img src="<%= asset_path('mole.png')%>" alt="" style="width:200px; height:200px">
+        </div>
+      <% end %>
+    </div>
+
+    <div class="space-invaders">
+      <h5 class="mt-3">Car Game</h5>
+      <%= link_to car_game_path, data: { turbolinks: false } do %>
+        <div class="app mb-5" style="border:1px solid orange">
+          <img class="mt-3" src="<%= asset_path('car.png')%>" alt="" style="width:100px; height:200px">
+        </div>
+      <% end %>
+    </div>
+
+    <div class="memory-game">
+      <h5 class="mt-3">Connect 4</h5>
+      <%= link_to connect_4_path, data: { turbolinks: false } do %>
+        <div class="app mb-5" style="border:1px solid orange">
+          <img class="mt-3" src="<%= asset_path('connect_4.jpg')%>" alt="" style="width:150px; height:150px">
+        </div>
+      <% end %>
+  </div>
+
+
+</div>
