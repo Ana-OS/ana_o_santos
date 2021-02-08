@@ -301,7 +301,7 @@ h3{
   }
 }
 
-@media screen and (max-width: 325px){
+@media screen and (max-width: 375px){
   .outer{
     position:absolute;
     width:100vw;
@@ -310,7 +310,7 @@ h3{
   }
 
   .social{
-    width:120vw;
+    width:100vw;
     padding-top:30px;
     margin-left:-10px;
 
@@ -323,15 +323,15 @@ h3{
   }
 
   .inner{
-    width:120vw;
+    width:100vw;
     top:10%;
-    height:110vh;
+    height:95vh;
     left:0%;
   }
 
   .name{
     top:4%;
-    left:8%;
+    left:1%;
     width:100vw;
 
     h1{font-size:30px}
@@ -358,15 +358,15 @@ h3{
   .content{
     width:120vw;
     position:absolute;
-    top:120vh;
+    top:110vh;
     left:0;
 
     h3{
-      margin-left:40%;
+      margin-left:33%;
     }
 
     .app{
-      margin-left:-10%;
+      margin-left:-14%;
       p{
         font-size:13px;
       }
@@ -380,7 +380,7 @@ h3{
   .games{
     width:100%;
     position:absolute;
-    top:230vh;
+    top:200vh;
 
     h5{
       margin-left:20%;
