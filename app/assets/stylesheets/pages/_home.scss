@@ -544,7 +544,7 @@ h3{
     width:120%;
     top:10%;
     height:90vh;
-    left:0;
+    left:-10%;
   }
 
   .name{
@@ -651,6 +651,12 @@ h3{
       p{
         font-size:13px;
       }
+    }
+  }
+  .social{
+    margin-left:20%;
+    p a{
+      font-size:10px;
     }
   }
 }
