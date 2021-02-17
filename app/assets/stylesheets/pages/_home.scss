@@ -543,7 +543,7 @@ h3{
   .inner{
     width:120%;
     top:10%;
-    height:90vh;
+    height:95vh;
     left:-10%;
   }
 
@@ -561,6 +561,8 @@ h3{
   }
 
   .container_pic img{
+    border:1px solid blue;
+
     width:230px;
     height:270px;
   }
@@ -619,31 +621,35 @@ h3{
     border:none !important;
   }
   .inner{
-    width:125%;
+    width:135%;
     top:10%;
     height:110vh;
-    left:0;
+    left:-12%;
   }
 
   .container_pic{
     top:80px;
     left:18%;
+    img{
+    border:1px solid red;
+
+    }
   }
   .about{
     width:250px;
     height:130px;
     top:400px;
-    left:20%;
+    left:15%;
     font-size:15px;
   }
   .content{
     width:120vw;
     position:absolute;
     top:90vh;
-    left:14%;
+    left:5%;
 
     h3{
-      margin-left:33%;
+      margin-left:30%;
     }
 
     .app{
