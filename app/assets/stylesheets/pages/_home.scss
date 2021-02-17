@@ -631,12 +631,19 @@ h3{
     border:none !important;
   }
   .inner{
-    width:135%;
+    width:110%;
     top:10%;
     height:110vh;
-    left:-12%;
+    left:-50%;
   }
 
+  .name{
+    top:4%;
+    left:4%;
+    width:100vw;
+
+    h1{font-size:30px}
+  }
   .container_pic{
     top:80px;
     left:18%;
@@ -655,7 +662,7 @@ h3{
   .content{
     width:120vw;
     position:absolute;
-    top:90vh;
+    top:130vh;
     left:5%;
 
     h3{
