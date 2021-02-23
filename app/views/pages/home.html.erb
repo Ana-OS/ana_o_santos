@@ -36,31 +36,31 @@
       </div>
     </div>
   </div>
+  <div style="height:100px"></div>
   <h3 class="mt-5 games-title">Javascript Games for Desktop</h3>
   <div class="wrapper mt-5 d-flex justify-content-between" >
     <div class="connect-4">
       <h5 class="mt-3">Whack A Mole</h5>
       <%= link_to whack_a_mole_path, data: { turbolinks: false } do %>
-        <div class="app mb-5">
+        <div class="app">
           <img src="<%= asset_path('mole.png')%>" alt="" class="mt-4" style="width:200px; height:200px">
         </div>
       <% end %>
     </div>
-
     <div class="space-invaders">
-      <h5 class="mt-3">Car Game</h5>
+      <h5 class="">Car Game</h5>
       <%= link_to car_game_path, data: { turbolinks: false } do %>
-        <div class="app mb-5">
+        <div class="app">
           <img class="mt-3" src="<%= asset_path('car-game.jpg')%>" alt="" style="width:280px; height:200px">
         </div>
       <% end %>
     </div>
 
     <div class="memory-game">
-      <h5 class="mt-3">Connect 4</h5>
+      <h5 class="mt-1">Connect 4</h5>
       <%= link_to connect_4_path, data: { turbolinks: false } do %>
-        <div class="app mb-5">
-          <img class="mt-3" src="<%= asset_path('connect-four.jpg')%>" alt="" class="mt-5" style="width:230px; height:190px">
+        <div class="app">
+          <img class="mt-3" src="<%= asset_path('connect-four.jpg')%>" alt=""  style="width:230px; height:190px">
         </div>
       <% end %>
   </div>
